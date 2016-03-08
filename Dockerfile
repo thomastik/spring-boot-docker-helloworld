@@ -12,8 +12,6 @@ ENV PATH $MAVEN_HOME/bin:$PATH
 
 WORKDIR /app
 
-# VOLUME /tmp
-
 # Add POM and source
 ADD pom.xml /app/pom.xml
 ADD src /app/src
